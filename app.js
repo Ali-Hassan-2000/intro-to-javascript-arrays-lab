@@ -264,9 +264,9 @@ Complete Exercise 15 in the space below:
 
 let total = 0;
 
-for (let i = 0; i < numArrays.length; i++) {
+for (let i = 0; i < numArrays.length; i++) { //end in array length
 
-  for (let j = 0; j < numArrays[i].length; j++) {
+  for (let j = 0; j < numArrays[i].length; j++) { //end in the inner array length
     total += numArrays[i][j];
   }
 }
